@@ -1,0 +1,387 @@
+{
+	"id": 0,
+	"name": "nestjs",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 2,
+			"name": "app.controller",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 3,
+					"name": "AppController",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"decorators": [
+						{
+							"name": "Controller",
+							"type": {
+								"type": "reference",
+								"name": "Controller"
+							},
+							"arguments": {}
+						}
+					],
+					"children": [
+						{
+							"id": 4,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 5,
+									"name": "new AppController",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 6,
+											"name": "appService",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 14,
+												"name": "AppService"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 3,
+										"name": "AppController"
+									}
+								}
+							]
+						},
+						{
+							"id": 7,
+							"name": "getHello",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"decorators": [
+								{
+									"name": "Get",
+									"type": {
+										"type": "reference",
+										"name": "Get"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "app.controller.ts",
+									"line": 10,
+									"character": 10
+								}
+							],
+							"signatures": [
+								{
+									"id": 8,
+									"name": "getHello",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								4
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								7
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "app.controller.ts",
+							"line": 6,
+							"character": 26
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						3
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "app.controller.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "app.controller.spec",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "app.controller.spec.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "app.module",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 10,
+					"name": "AppModule",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"decorators": [
+						{
+							"name": "Module",
+							"type": {
+								"type": "reference",
+								"name": "Module"
+							},
+							"arguments": {
+								"metadata": "{\n  imports: [],\n  controllers: [AppController],\n  providers: [AppService],\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 11,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 12,
+									"name": "new AppModule",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 10,
+										"name": "AppModule"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								11
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "app.module.ts",
+							"line": 11,
+							"character": 22
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						10
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "app.module.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "app.service",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 14,
+					"name": "AppService",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"decorators": [
+						{
+							"name": "Injectable",
+							"type": {
+								"type": "reference",
+								"name": "Injectable"
+							},
+							"arguments": {}
+						}
+					],
+					"children": [
+						{
+							"id": 15,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 16,
+									"name": "new AppService",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 14,
+										"name": "AppService"
+									}
+								}
+							]
+						},
+						{
+							"id": 17,
+							"name": "getHello",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "app.service.ts",
+									"line": 5,
+									"character": 10
+								}
+							],
+							"signatures": [
+								{
+									"id": 18,
+									"name": "getHello",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								15
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								17
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "app.service.ts",
+							"line": 4,
+							"character": 23
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						14
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "app.service.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 19,
+			"name": "main",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "main.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"kind": 1,
+			"children": [
+				2,
+				1,
+				9,
+				13,
+				19
+			]
+		}
+	]
+}
