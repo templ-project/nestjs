@@ -26,7 +26,7 @@
 [![Donate to this project using Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://patreon.com/dragoscirjan)
 [![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QBP6DEBJDEMV2&source=url)
 
-<img alt="JavaScript Logo" src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" width="20%" align="right" />
+<img alt="Nest Logo" src="https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg" width="20%" align="right" />
 
 <!-- Project Description Starts Here -->
 
